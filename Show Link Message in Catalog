@@ -1,0 +1,12 @@
+ if (newValue =='Windows') {
+       
+		g_form.clearValue('platform');
+        var link = '<a href="https://nseindiadev.service-now.com/sp?id=sc_cat_item&sys_id=e83b500bdb0aff00cd2c1db41b961972"> Generic User ID Creation</a>';
+        //g_form.showFieldMsg('hardware_model', "Model is not supported, click on the above link to request ", 'error');
+
+        g_form.addInfoMessage("We have automated the Generic user creation process, please use this link to request " + link);
+		g_form.clearValue('Platform');
+		//g_form.setMandatory('hardware_model_manual',false);
+		//g_form.setDisplay('hardware_model_manual',false);
+		
+  }
